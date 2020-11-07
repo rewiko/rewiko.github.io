@@ -1,6 +1,6 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: "Toha"
+title: "Anthony Comtois' Blog"
 theme: "toha"
 
 # Manage languages
@@ -9,21 +9,21 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 2
-  fr:
-    languageName: Français
-    weight: 3
-  id: 
-    languageName: Indonesian
-    weight: 4
-  de:
-    languageName: Deutsch
-    weight: 5
-  es:
-    languageName: Spanish
-    weight: 6
+  # bn:
+  #   languageName: বাংলা
+  #   weight: 2
+  # fr:
+  #   languageName: Français
+  #   weight: 3
+  # id: 
+  #   languageName: Indonesian
+  #   weight: 4
+  # de:
+  #   languageName: Deutsch
+  #   weight: 5
+  # es:
+  #   languageName: Spanish
+  #   weight: 6
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: fr
@@ -42,7 +42,7 @@ markup:
 googleAnalytics: UA-XXXXXXXXX-X
 
 # Enable Disqus forum
-disqusShortname: does-not-exist
+disqusShortname: anthonycomtoisblog
 
 # Enable global emoji support
 enableEmoji: true
@@ -72,4 +72,4 @@ params:
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    enable: true
+    enable: false
