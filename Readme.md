@@ -25,3 +25,7 @@ hugo server -t toha -w --bind 0.0.0.0 -b http://172.16.0.2
 2. make changes, commit an push `git push origin source`
 3. github actions will generate website and commit in master branch 
 4. website will be available on https://rewiko.github.io/
+
+## Tutorial github pages 
+
+https://toha-guides.netlify.app/posts/getting-started/github-pages/
