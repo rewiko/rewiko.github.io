@@ -20,7 +20,7 @@ I have seen various entreprise types: large, medium, small startup.
 
 I like being delivery focus and thinking about the full picture of a project to improve it and going forward.
 
-I'm working on a few blog posts, you can subscribe to the <a href="/posts/index.xml" target="/">RSS feed <i class="fas fa-rss-square"></i> </a> to get notified.
+I'm working on a few blog posts, you can subscribe to the <a href="/posts/index.xml" target="/">RSS feed <i class="fas fa-rss-square"></i> </a>  to get notified.
 
 I will share my knowledge which can hopefully help others.
 
