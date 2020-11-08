@@ -11,54 +11,65 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Sky
+    url: "https://www.sky.com"
+    location: London, UK
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: I'm managing mutliple streaming platforms for Sky and Peacocktv/NBCU.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Principal Engineer - Core Team
+    start: Aug 2018
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Delivering a platform being able to support a high number a concurrent users, requests per second, SSL/TLS transactions per second (TPS), high throughput.
+    - Designing and Developing a multi-datacenter/multi-provider hosting (Public Cloud AWS, GCP - On Premise VMware).
+    - Designing and implementing scalable solution for logging, monitoring, load testing, networking, load balancing and microservice design.
+    - Helping teams to deploy on our platform and giving guidance in term of architecture and best practice.
+    - Implementing an agnostic datacenter deployment and continuous delivery pipeline with full automation and testing including integration, functional, load test, blue green and canary deployments.
+    - Rolling out the platform in a full automation way with promotion mechanism.
+    - Building and designing application for having a self-healing platform
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Senior DevOps Engineer & Software Engineer
+    start: Sep 2016
+    end: Jul 2018
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.preexample.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Design and Development Multi-Datacenter Hosting (Public Cloud AWS,GCP - On Premise VMware)
+    - Agnostic Datacenter Deployment with full automation pipeline including Integration, Functionnal, Load test, Blue Green and Canary Deployments
+    - Rolling out the platform in a full automation way
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Digit-prime
+    url: "https://www.linkedin.com/company/digit-prime/"
+    location: Belfort, France
+    overview: "I created the infrastrure and several products: 3d javascript loader, frontend, backend, mobile applications"
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: DevOps Architect & Software Engineer
+    start: Sept 2014
+    end: Sept 2016
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - "Define the architecture of projects, thinking about scalability, security, efficiency, re-usability of components, self-healing infrastructure : proactive monitoring with auto-scaling."
+    - Built all the stack to create a scalable infrastructure using microservices and containers.
+    - Found the best way to scale easily the infrastructure and components.
+    - Made a security audit for a customer, following the OWASP Specification.
+    - "Tech-Lead - choose the stack for each project: components, micro-services, tools, architecture."
+    - Develop a 3D visualisation tool to load huge 3D model through the browser.
+    - Create 3D model format, improve the way to store 3D informations (specific sorting array, compression algorithm), find a good ratio between the time to decompress data and the size of the file (network and loading data optimization).
+    - Create applications based on Virtual Reality VR and Augmented Reality AR. Oculus Rift.
+    - "Develop many projects for customers : Mobile Application, API, Web Application"
+
+- company:
+    name: Faurecia
+    url: "https://www.faurecia.com"
+    location: Seloncourt, France
+    overview: I was managing the monitoring stack for a large number of servers.
+  positions:
+  - designation: DevOps & Software Developer
+    start: Sept 2013
+    end: Aug 2014
+    responsibilities:
+    - Improve the architecture of the monitoring stack.
+    - Migrate a monolithic monitoring architecture to a distributed monitoring with worker server around the world which handle the monitoring check.
+    - Participate to develop a disaster recovery plan, to be able to recreate all the stack and restore the data backup in case of important damages.
+    - Develop the reporting alerts, implement a tool to generate report and graph to be proactive to solve recurring incidents and improve the monitoring check.

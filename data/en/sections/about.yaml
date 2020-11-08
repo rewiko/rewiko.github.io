@@ -8,66 +8,63 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Full Stack/Principle Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Sky
+  url: "https://www.sky.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+# resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: "I am an IT guy helping you to deliver faster without compromising on quality. <br /> I can help you design, create and manage your frontend, backend, database, infrastructure.<br /><br /> I contribute on open-source projects to give back to the community. <br /> I love to learn from each other and share my knowledge. <br /><br />Let's build something better together. Please do not hesitate to reach out if need any help for your project."
+# I manage on daily basis multiple multi-tenanted platforms at high traffic: 
+# - over 3-10 millions concurrents users, 
+# - over 500 applications deployed through a continuous delivery pipeline including Unit/Integration/Functional/NFT/Load/Chaos tests 
+# - over 1000 developers using the platform
+# - infrastructure tested to handle 1 million TPS,
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "anthony.comtois@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/rewiko/"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/anthony-comtois-574a5551/"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+  url: "https://twitter.com/rewiko/"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
 - name: Leadership
-  percentage: 85
+  percentage: 90
   color: blue
 - name: Team Work
-  percentage: 90
+  percentage: 95
   color: yellow
 - name: Communication
   percentage: 85
   color: pink
 - name: Hard Working
-  percentage: 85
+  percentage: 95
   color: green
 - name: Fast Learner
   percentage: 85
   color: sky
 - name: Problem Solving
-  percentage: 85
+  percentage: 100
   color: orange
 # you can also provide color code instead of pre-defined color name
 # - name: Example 1
