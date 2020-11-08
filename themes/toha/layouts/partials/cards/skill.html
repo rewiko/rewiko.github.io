@@ -1,0 +1,17 @@
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" {{ if .url }}href="{{ .url }}"{{ end }}>
+    <div class="card">
+      <div class="card-head d-flex">
+        {{ if .icon }}
+        <!-- <img class="card-img-xs" src="{{ .icon | relURL }}" alt="{{ .name }}" /> -->
+        <!-- <i class="card-img-xs fab fa-github"></i> -->
+        <i class="card-img-xs {{ .icon }} mt-1" ></i>
+        {{ end }}
+        <h5 class="card-title">{{ .name }}</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">{{ .summary | markdownify }}</p>
+      </div>
+    </div>
+  </a>
+</div>
