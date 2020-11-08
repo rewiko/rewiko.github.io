@@ -1,4 +1,4 @@
-# Anthony Comtois's blog 
+# Anthony Comtois' Portfolio and Blog
 
 This blog is using Hugo. 
 
