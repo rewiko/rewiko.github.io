@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://rewiko.github.io/
 languageCode: en-us
 title: "Anthony Comtois' Blog"
 theme: "toha"
@@ -61,7 +61,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/rewiko/anthony-comtois-blog.github.io
+  gitRepo: https://github.com/rewiko/rewiko.github.io
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
