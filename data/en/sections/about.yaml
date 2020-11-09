@@ -18,7 +18,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am an IT guy helping you to deliver faster without compromising on quality. <br /> I can help you design, create and manage your frontend, backend, database, infrastructure.<br /><br /> I contribute on open-source projects to give back to the community. <br /> I love to learn from each other and share my knowledge. <br /><br />Let's build something better together. Please do not hesitate to reach out if need any help for your project."
+summary: "I am an IT guy helping you to deliver faster without compromising on quality. <br /> I can help you design, create and manage your frontend, backend, database, infrastructure.<br /><br /> I contribute to open-source projects to give back to the community. <br /> I love to learn from each other and share my knowledge. <br /><br />Let's build something better together. Please do not hesitate to reach out if need any help for your project."
 # I manage on daily basis multiple multi-tenanted platforms at high traffic: 
 # - over 3-10 millions concurrents users, 
 # - over 500 applications deployed through a continuous delivery pipeline including Unit/Integration/Functional/NFT/Load/Chaos tests 
