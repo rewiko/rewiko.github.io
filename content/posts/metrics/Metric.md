@@ -16,6 +16,16 @@ menu:
 draft: true
 ---
 
+Golden Signal https://sysdig.com/blog/golden-signals-kubernetes/ 
+SLO, SLI, SLA https://www.youtube.com/watch?v=iMyhA9zKbMk 
+Latency, Error Rate
+Memory, CPU 
+
+Define rate, increase, irate https://www.robustperception.io/how-does-a-prometheus-counter-work
+Define different metric type counter, gauge, histogram, summary
+
+
+https://sysdig.com/blog/golden-signals-kubernetes/
 Cardinality is key - https://www.robustperception.io/cardinality-is-key
 
 <!--more-->
