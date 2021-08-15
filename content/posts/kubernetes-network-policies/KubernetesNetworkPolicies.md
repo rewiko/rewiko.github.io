@@ -202,7 +202,7 @@ The test relies on alerts to validate the result: alerts on latency increase, ht
 
 ### Keep improving - Regression test 
 
-It is hard to think of every single use case when defining your tests. Therefore if you can keep improving them if your pipeline is already defined and overtime it will get better.
+It is hard to think of every single use case when defining your tests. Therefore you can keep improving them if your pipeline is already defined and overtime it will get better.
 
 Dev teams might report issue, you should: 
  - investigate
