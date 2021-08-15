@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-date: 2020-11-08T08:06:25+06:00
-hero: /posts/introduction/hero.svg
+date: 2020-11-08
+hero: /posts/introduction/Rainbow-Vortex.svg
 description: Introduction 
 menu:
   sidebar:

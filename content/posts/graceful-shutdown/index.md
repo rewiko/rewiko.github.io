@@ -20,3 +20,6 @@ draft: true
 <!--more-->
 
 graceful Shutdown
+
+podinfo
+
