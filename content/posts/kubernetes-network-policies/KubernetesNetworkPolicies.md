@@ -59,7 +59,7 @@ Cilium has always been relying on EBPF to improve the security of your cluster a
 
 Cilium will allow you to (non-exhaustive list):
 - Restrict network communication within the cluster
-- Allow and block access to external endpoint (databases) to a specific namespaces/applications 
+- Allow and block access to external endpoint (eg: databases) to a specific namespaces/applications 
 - Block "malicious" ips at the cluster level, the owner of the kubernetes namespaces won't be able to overwrite blocked ips defined at the cluster level (Deny Cluster-wide Cilium Network Policies)
 - Least privilege access (block any traffic by default)
 
@@ -90,7 +90,7 @@ A bpf policy map is created for each cilium endpoint/pod, the list of identities
 
 Cilium can also handle kubernetes service load balancing and replace kube-proxy.
 Essentially at every connection creation, it will perform a DNAT (destination nating or modifying the destination ip from service ip to pod ip). 
-Cilium manages the mapping between service ip and pod ips into the load balancer map and keeps the state of the connection without the connection tracking bpf map, therefore it does not rely on the usual kernel connection tracking table.
+Cilium manages the mapping between service ip and pod ips into the load balancer map and keeps the state of the connection using the connection tracking bpf map, therefore it does not rely on the usual kernel connection tracking table.
 
 The load balancing can be packet or socket based and the ct bpf map will be used to track the connections.
 I would recommend using socket based load balancing because the solution per packet seems to have an issue creating connection reset when a pod is deleted. 
