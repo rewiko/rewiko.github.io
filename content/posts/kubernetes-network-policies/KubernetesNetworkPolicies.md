@@ -210,9 +210,14 @@ Dev teams might report issue, you should:
  - add regression test 
  - deploy a fix through the pipeline, the deployment to an environment should be automated and it is important to build a promotion mechanism by checking alerts on the lower environment before promoting the new version to the next environment.
 
+## EBPF Summit 2021 - Presentation
+
+For more explanations you can watch our talk at the EBPF Summit 2021.
+
+{{< youtube id="u-4naOMfs_w" >}}
 ## Conclusion
 
 Overall Cilium and EBPF are just amazing technologies which allow you to secure your network within kubernetes.
 
-I would easily recommend it to anyone. Try it! 
+I would easily recommend it to anyone. [Try it](https://cilium.io/)! 
  

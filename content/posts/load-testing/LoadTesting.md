@@ -20,4 +20,5 @@ Golden signals
 Load injector custom tool to send DNS query, Galting http/websocket/grpc
 Monitoring with prometheus 
 
+k6 - soak test - load test - stress test
 <!--more-->
