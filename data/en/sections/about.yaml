@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Full Stack/Principal Engineer
+designation: Tech lead - DevOps Architect & Software Engineer
 # your company information
 company:
-  name: Sky
-  url: "https://www.sky.com"
+  name: Freelance
+  url: "https://rewiko.github.io/"
 
 # your resume. this file path should be relative to you "static" directory
 # resume: "files/resume.pdf"

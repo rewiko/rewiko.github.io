@@ -42,7 +42,7 @@ Also adding and removing iptables is a sequential process with a locking mechani
 
 For those reasons, iptables is not the most scalable solution to segregate the network and to load balance your kubernetes services.
 
-More infos: 
+More info: 
 
 [Slideshare - Scale Kubernetes to Support 50,000 Services [I] - Haibin Xie & Quinton Hoole](https://www.slideshare.net/LCChina/scale-kubernetes-to-support-50000-services)
 
@@ -73,7 +73,7 @@ EBPF allows you to load programs within the kernel without the need to recompile
 
 You can attach a program to a specific hook: tc ingress or egress, XDP layer (closest to the NIC).
 
-More infos: [EBF.io](https://ebpf.io/) [Cilium EBPF guide](https://docs.cilium.io/en/v1.10/bpf/)
+More info: [EBF.io](https://ebpf.io/) [Cilium EBPF guide](https://docs.cilium.io/en/v1.10/bpf/)
 ### Cilium & EBPF and Network Policies 
 
 Cilium compiles and loads a bpf program into the kernel. This program will be attached to the container interface more precisely using the tc hook (ingress or egress).

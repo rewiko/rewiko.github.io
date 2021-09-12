@@ -11,16 +11,28 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Banking Sector
+    # url: "https://www.sky.com"
+    location: London, UK
+    # company overview
+    overview: Help improving their infrastructure.
+  positions:
+  - designation: Principal Consultant
+    start: Aug 2021
+    responsibilities:
+    - Audit existing infrastructure.
+    - Suggest and implement improvements.
+- company:
     name: Sky
     url: "https://www.sky.com"
     location: London, UK
     # company overview
-    overview: I'm managing mutliple streaming platforms for Sky and Peacocktv/NBCU.
+    overview: I managed multiple streaming platforms for Sky and Peacocktv/NBCU.
   positions:
   - designation: Principal Engineer - Core Team
     start: Aug 2018
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Jul 2021
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Delivering a platform being able to support a high number a concurrent users, requests per second, SSL/TLS transactions per second (TPS), high throughput.
