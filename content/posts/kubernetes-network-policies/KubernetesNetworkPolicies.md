@@ -95,7 +95,7 @@ Cilium manages the mapping between service ip and pod ips into the load balancer
 The load balancing can be packet or socket based and the ct bpf map will be used to track the connections.
 I would recommend using socket based load balancing because the solution per packet seems to have an issue creating connection reset when a pod is deleted. 
 
-This issue is worked on https://github.com/cilium/cilium/issues/14844, to use socket load balancing you can set `kube-proxy-replacement: "partial"`.
+This issue is worked on https://github.com/cilium/cilium/issues/14844 , to use socket load balancing you can set `kube-proxy-replacement: "partial"`.
 
 ## Make seamless change on your infrastructure
 

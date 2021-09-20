@@ -21,6 +21,7 @@ Kubernetes ingress is the standard specification allowing external traffic to re
 
 Tenants on the platform create an ingress resource to define the hostname, path and the service exposed.
 
+
 ## Network flow
 ### BGP/ECMP
 
@@ -79,8 +80,6 @@ Enabling SSL reduced considerably the throughput to 9k TPS. I would advise to di
 
 #### Preserve client source ip
 
-
-
 NLB send only traffic to the node where nginx is running, preserve ip and ensure to gracefully shutdown pod while the instance is terminated
  externalTrafficPolicy set to Local
 https://www.asykim.com/blog/deep-dive-into-kubernetes-external-traffic-policies
@@ -103,7 +102,6 @@ This will also ensure that when a kubernetes node go down one of the ingress con
 https://medium.com/flant-com/kubernetes-graceful-shutdown-nginx-php-fpm-d5ab266963c2
 
 
-
 #### Disable cross load balancing
 
 Disable cross load balancing 
@@ -122,7 +120,6 @@ On AWS, the Network Load Balancer (NLB) is acting at the layer 4 and forward the
 
 ### HTTP Graceful Shutdown 
 
-
 shutdown-grace-period nginx ingress controller and TernminationGracePeriod
 catch SIGTERM and send QUIT signal to nginx
 Drain non new connection are accepted 
@@ -130,7 +127,11 @@ Drain non new connection are accepted
 Close connection by sending a FIN packet 
 #### Idle Connection
 
+max keepalive request 
+Keepalive timeout 
 Keepalive TTL
+http://users.cis.fiu.edu/~downeyt/cgs4854/timeout
+
 
 Wait for idle connection to be closed by the client
 
