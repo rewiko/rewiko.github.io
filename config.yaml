@@ -15,7 +15,7 @@ languages:
   # fr:
   #   languageName: Français
   #   weight: 3
-  # id: 
+  # id:
   #   languageName: Indonesian
   #   weight: 4
   # de:
@@ -39,7 +39,7 @@ markup:
     ordered: false
 
 # Enable Google Analytics
-googleAnalytics: UA-182340155-1
+googleAnalytics: 365804273
 
 # Enable Disqus forum
 disqusShortname: anthonycomtoisblog
